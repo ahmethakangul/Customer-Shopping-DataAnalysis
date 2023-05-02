@@ -20,3 +20,5 @@ Content Attribute Information:
 In this project, we will make some data analysis and visulations
 
 Let's start!!
+
+"grafiklerin tamamını görebilmek için projeyi indirip öyle inceleyiniz"
