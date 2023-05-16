@@ -32,7 +32,7 @@ ctrl-c
 ```
 
 ## Demo
-
+https://ahmethakangul-customer-shopping-dataanalysis-app-eq5umd.streamlit.app
 
 
 ## Author
@@ -48,4 +48,4 @@ ctrl-c
 If you have any feedback, please reach out to me on my LinkedIn profile
 
 
-"grafiklerin tamamını görebilmek için projeyi indirip öyle inceleyiniz"
+"Download and review the project to see the all graphics"
