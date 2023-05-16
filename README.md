@@ -1,7 +1,8 @@
-# Customer Shopping Exploratory Data Analysis (EDA)
+
+# Shopping Malls Exploratory Data Analysis in Istanbul
 
 
-### Information
+## Information
 
 In this notebook, we will explore the dataset of customer shopping. The dataset is taken from [Kaggle](https://www.kaggle.com/datasets/mehmettahiraslan/customer-shopping-dataset). The dataset contains 1000 rows and 10 columns. The dataset contains the following columns:
 
@@ -20,3 +21,30 @@ Content Attribute Information:
 In this project, we will make some data analysis and visulations
 
 Let's start!!
+
+## Run the app
+```Powershell
+# terminal
+streamlit run app.py
+
+# quit
+ctrl-c
+```
+
+## Demo
+
+
+
+## Author
+
+- Developed by Ahmet Hakan Gül 
+- LinkedIn: https://www.linkedin.com/in/ahmethakangul/
+- Website: https://ahmethakangul.xyz
+
+
+
+## Feedback
+
+If you have any feedback, please reach out to me at my LinkedIn profile
+
+
