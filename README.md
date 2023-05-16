@@ -45,7 +45,7 @@ ctrl-c
 
 ## Feedback
 
-If you have any feedback, please reach out to me at my LinkedIn profile
+If you have any feedback, please reach out to me on my LinkedIn profile
 
 
 "grafiklerin tamamını görebilmek için projeyi indirip öyle inceleyiniz"
