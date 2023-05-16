@@ -48,3 +48,4 @@ ctrl-c
 If you have any feedback, please reach out to me at my LinkedIn profile
 
 
+"grafiklerin tamamını görebilmek için projeyi indirip öyle inceleyiniz"
