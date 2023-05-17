@@ -121,7 +121,8 @@ fig_daily_sales.update_layout(
     plot_bgcolor="rgba(0,0,0,0)",
     yaxis=(dict(showgrid=False)),
 )
-gender_count = data['gender'].value_counts()
+
+gender_count = data_selection['gender'].value_counts()
 fig_pie = px.pie(
     gender_count, 
     values = gender_count, 
@@ -130,6 +131,17 @@ fig_pie = px.pie(
    # color = gender_count.index,
     title = 'Gender',
     color_discrete_map = {'female':'#71b0df', 'male': '#d90718'},
+    template="plotly_white",
+)
+pay_method	= data_selection['payment_method'].value_counts()
+fig_donut = px.pie(
+    pay_method	, 
+    values = pay_method, 
+    hole = 0.4,
+    names = pay_method.index, 
+    #color = pay_method,
+    title = 'Payment Method	',
+    color_discrete_map = {'Debit Card':'#cyan', 'Credit Card': '#green', 'Cash': '#red'},
     template="plotly_white",
 )
 
@@ -142,6 +154,9 @@ left_column1, right_column1 = st.columns(2)
 left_column1.plotly_chart(fig_pie, use_container_width=True)
 right_column1.plotly_chart(fig_monthly_sales, use_container_width=True)
 
+left_column2, right_column2 = st.columns(2)
+#left_column1.plotly_chart(fig_pie, use_container_width=True)
+right_column1.plotly_chart(fig_donut, use_container_width=True)
 
 # ---- HIDE STREAMLIT STYLE ----
 hide_st_style = """
